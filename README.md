@@ -9,7 +9,7 @@ The aim of this project is to recognize and classify the manufacturer, variant a
 ## Install
 • clone this repository
 
-• download constants.py files with the label of each classes : the name of the panels.
+• download constant.py files with the label of each classes : the name of the panels.
 
 • check requirements files.
 
@@ -34,7 +34,7 @@ If you are using a Google collab for the neural network model and you want to re
 
 For the application, we have to install streamlit :
 
-1. Install streamlit in the airplane environment : conda install -c conda-forge streamlit
+Install streamlit in the airplane environment : conda install -c conda-forge streamlit
 
 
 
