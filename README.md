@@ -42,6 +42,16 @@ For the application, we have to install streamlit :
 1. Install streamlit in the airplane environment :
 ``conda install -c conda-forge streamlit``
 
-## Auteurs
-- Projet réalisé par Nastasia Henry et Dan Busnach, classe de Magistère 3ème année à Aix Marseille School of Economics
-- Projet réalisé dans le cadre du cours de Big Data, de Monsieur Hervé Mignot. 
+## License
+
+Distributed under the MIT License.
+
+## References
+• Data : https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/
+
+## Authors
+• Collaboration with Dan Busnach (@BSNDAN) for project at Aix-Marseille School of Economics
+
+ --  Nastasia Henry - @henry_nastasia - nastasia.henry@etu.univ-amu.fr
+ 
+ --  Dan Busnach -dan.busnach@etu.univ-amu.Fr 
