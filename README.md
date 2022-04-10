@@ -50,7 +50,7 @@ Distributed under the MIT License.
 • Data : https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/
 
 ## Authors
-• Collaboration with Dan Busnach (@BSNDAN) for project at Aix-Marseille School of Economics
+• Collaboration with Nastasia Henry for project at Aix-Marseille School of Economics
 
  --  Nastasia Henry - @henry_nastasia - nastasia.henry@etu.univ-amu.fr
  
