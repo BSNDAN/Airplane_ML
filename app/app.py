@@ -1,3 +1,6 @@
+import io
+import yaml
+
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
@@ -5,6 +8,17 @@ import streamlit as st
 import tensorflow as tf
 import pandas as pd
 from PIL import Image
+
+from constant import manufacturer_class, variant_class, family_class
+
+
+with open('app.yaml') as yaml_data:
+    parameters = yaml.safe_load(yaml_data)
+
+IMAGE_WIDTH = parameters[0]['IMAGE_WIDTH']
+IMAGE_HEIGHT = parameters[1]['IMAGE_HEIGHT']
+IMAGE_DEPTH = parameters[2]['IMAGE_DEPTH']
+MODEL_PATH = parameters[23]['MODEL_PATH']
 
 def load_image(path):
     """Load an image as numpy array
@@ -40,13 +54,13 @@ problem = ["manufacturer","variant","family"]
 choose_pb = st.radio("choose what kind of prediction",problem)
 
 if choose_pb == "manufacturer":
-    model,problem_class = load_model("models/manufacturer.h5"), manufacturer_class
+    model,problem_class = load_model(MODEL_PATH + "/manufacturer.h5"), manufacturer_class
     
 elif choose_pb == "variant":
-    model,problem_class = load_model("models/variant.h5"), variant_class
+    model,problem_class = load_model(MODEL_PATH + "/variant.h5"), variant_class
     
 else : 
-    model, problem_class = load_model("models/family.h5"), family_class
+    model, problem_class = load_model(MODEL_PATH + "/family.h5"), family_class
 
 uploaded_file = st.file_uploader("load an airplane image")
 
