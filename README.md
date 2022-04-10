@@ -22,7 +22,7 @@ The aim of this project is to recognize and classify the manufacturer, variant a
 
 
 ## Manipulation to be done directly on the computer environment :
-If you are using a Google collab for the neural network model and you want to reload the model on a Jupyter lab, you have to proceed in the same way :
+If you want to reload the model on local, you have to proceed in the same way :
 
 1. From an anaconda prompt, create a new environnement [conda create --name airplane python=3.8] [conda install pandas tensorflow scikit-learn seaborn pillow]
 2. Activate this environnement [conda activate airplane]
@@ -47,7 +47,7 @@ Distributed under the MIT License.
 • Data : https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/
 
 ## Authors
-• Collaboration with Dan Busnach (@BSNDAN) for project at Aix-Marseille School of Economics
+• Collaboration with Nastasia Henry for project at Aix-Marseille School of Economics
 
  --  Nastasia Henry - @henry_nastasia - nastasia.henry@etu.univ-amu.fr
  
