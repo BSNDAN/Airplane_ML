@@ -1,10 +1,8 @@
 # Project MAG3 AMSE : "Airplane classification"
 
 # Project MAG3 AMSE : "Airplane classification"
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-
 ### Description of the project : 
-Build **Neurals Netowrks** and **an interface** to classify the manufacturer, variant and family of an airplane.
+Build **Neurals Netowrks** and **an interface** to classify the manufacturer, variant and family of airplanes.
 
 ## To start the project properly
 * clone this repository

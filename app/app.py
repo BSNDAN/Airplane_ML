@@ -18,7 +18,7 @@ with open('app.yaml') as yaml_data:
 IMAGE_WIDTH = parameters[0]['IMAGE_WIDTH']
 IMAGE_HEIGHT = parameters[1]['IMAGE_HEIGHT']
 IMAGE_DEPTH = parameters[2]['IMAGE_DEPTH']
-MODEL_PATH = parameters[23]['MODEL_PATH']
+MODEL_PATH = parameters[3]['MODEL_PATH']
 
 def load_image(path):
     """Load an image as numpy array
