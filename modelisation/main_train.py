@@ -24,7 +24,7 @@ models = model.build_Unet(dim=(constants.IMAGE_WIDTH,constants.IMAGE_HEIGHT,cons
                           nb_output=len_output, activation="softmax",
                          )
 
-opt = keras.optimizers.Nadam(learning_rate=0.001)
+opt = keras.optimizers.Nadam(learning_rate=constants.LR)
 
 models.compile(loss='sparse_categorical_crossentropy', 
                optimizer=opt,
